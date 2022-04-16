@@ -9,3 +9,5 @@ def find_number_of_columns(data):
     return
 
 # Read the csv file
+data = open('data.csv').read()
+print(data)
